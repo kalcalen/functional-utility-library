@@ -1,3 +1,5 @@
+//
+
 // Slice method
 function sliceMethod(inputSliceArr1, inputSliceArr2) {
    // Two inputs for this function to determine which parts of the array will be cut
