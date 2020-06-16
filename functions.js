@@ -1,3 +1,10 @@
+// Concat Method
+function combineConcat(concatInput1, concatInput2) {
+   let streetArray = streetFighter;
+   console.log(streetArray);
+   return (newConcatArray = concatInput1.concat(concatInput2));
+}
+
 // Remove elements from an array using slice instead of splice
 function sliceNoSplice(inputSlice) {
    var actionMovies = [
