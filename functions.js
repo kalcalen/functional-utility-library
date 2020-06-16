@@ -1,3 +1,12 @@
+// Slice method
+function sliceMethod(inputSliceArr1, inputSliceArr2) {
+   // Two inputs for this function to determine which parts of the array will be cut
+   var stonerFoods = ["Pizza", "Burgers", "Ice Cream", "HotDogs", "Tacos"];
+   var newArray = stonerFoods.slice(inputSliceArr1, inputSliceArr2);
+
+   return newArray;
+}
+
 // Impletment the filter method on a prototype
 function filterMethod(input) {
    var randomArr = [35, 87, 22, 96, 22, 66, 8, input];
