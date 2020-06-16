@@ -1,4 +1,15 @@
-//
+// Remove elements from an array using slice instead of splice
+function sliceNoSplice(inputSlice) {
+   var actionMovies = [
+      "Rush Hour",
+      "Drunken Master",
+      "Bad Boys",
+      "The Warriors",
+      "Deadpool",
+   ];
+   // Returns array of movies from the 0 index to inputted number using slice
+   return actionMovies.slice(0, inputSlice);
+}
 
 // Slice method
 function sliceMethod(inputSliceArr1, inputSliceArr2) {
