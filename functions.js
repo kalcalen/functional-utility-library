@@ -1,7 +1,11 @@
+// Concat Instead of push
+function concatNoPush(inputConcatNoPush) {
+   var chicagoBulls = ["Dennis Rodman", "Scottie Pippin", "Steve Kerr"];
+   return chicagoBulls.concat(inputConcatNoPush);
+}
+
 // Concat Method
 function combineConcat(concatInput1, concatInput2) {
-   let streetArray = streetFighter;
-   console.log(streetArray);
    return (newConcatArray = concatInput1.concat(concatInput2));
 }
 
