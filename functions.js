@@ -1,3 +1,16 @@
+// Join Method
+
+function joinMethod(inputJoin) {
+   // Breaks dashes
+   let sepResult = inputJoin.split(/\W/);
+   // Separates string
+   let newResult = sepResult.join(" ");
+
+   return newResult;
+
+   // Can also be written as: return inputJoin.split(/\W/).join(" ");
+}
+
 // Split Method
 
 function splitMethod(inputSplit) {
