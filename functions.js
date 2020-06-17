@@ -1,3 +1,5 @@
+// Reduce method
+
 // Concat Instead of push
 function concatNoPush(inputConcatNoPush) {
    var chicagoBulls = ["Dennis Rodman", "Scottie Pippin", "Steve Kerr"];
