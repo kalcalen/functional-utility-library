@@ -1,4 +1,8 @@
-// Reduce method
+// Split Method
+
+function splitMethod(inputSplit) {
+   return inputSplit.split(/\W/);
+}
 
 // Concat Instead of push
 function concatNoPush(inputConcatNoPush) {
