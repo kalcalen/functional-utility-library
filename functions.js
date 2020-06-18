@@ -1,3 +1,10 @@
+// Includes Method
+function includesMethod(inputIncludes) {
+   let superHeros = ["Batman", "Superman", "Aquaman"];
+
+   return superHeros.includes(inputIncludes);
+}
+
 // Map Method
 
 function mapMethod(inputMap) {
