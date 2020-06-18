@@ -1,3 +1,13 @@
+// Some Method
+
+function someMethod(inputSome) {
+   let result = inputSome.some(function (value) {
+      return value > 50;
+   });
+
+   return result;
+}
+
 // Every Method
 
 function everyMethod(inputEvery) {
