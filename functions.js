@@ -1,3 +1,45 @@
+// Map Method
+
+function mapMethod(inputMap) {
+   let nbaPlayers = [
+      {
+         name: "Carmelo Anthony",
+         team: "Knicks",
+         position: "Small Forward",
+      },
+      {
+         name: "John Stockton",
+         team: "Jazz",
+         position: "Point Guard",
+      },
+      {
+         name: "Joel Embiid",
+         team: "Sixers",
+         position: "Center",
+      },
+      {
+         name: "Donovan Mitchell",
+         team: "Jazz",
+         position: "Shooting Guard",
+      },
+      {
+         name: "Kemba Walker",
+         team: "Celtics",
+         position: "Point Guard",
+      },
+   ];
+   if (inputMap === "name") {
+      const nba = nbaPlayers.map((playerObj) => playerObj.name);
+      return nba;
+   } else if (inputMap === "team") {
+      const nba = nbaPlayers.map((playerObj) => playerObj.team);
+      return nba;
+   } else if (inputMap === "position") {
+      const nba = nbaPlayers.map((playerObj) => playerObj.position);
+      return nba;
+   }
+}
+
 // Some Method
 
 function someMethod(inputSome) {
