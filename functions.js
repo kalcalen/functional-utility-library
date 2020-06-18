@@ -1,7 +1,19 @@
+// Every Method
+
+function everyMethod(inputEvery) {
+   let result = inputEvery.every(function (value) {
+      // 'Every' goes through the array to see if value is bigger than zero
+      return value > 0;
+   });
+
+   return result;
+}
+
 // Join Method
 
 function joinMethod(inputJoin) {
    // Breaks dashes
+
    let sepResult = inputJoin.split(/\W/);
    // Separates string
    let newResult = sepResult.join(" ");
